@@ -1,0 +1,10 @@
+.joke{
+    background-color: ivory;
+    width:50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px;
+}
