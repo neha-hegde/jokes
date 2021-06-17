@@ -5,7 +5,7 @@ import "./App.css";
 
 const JokeComponents = JokesData.map((joke) => {
       return (
-            <Jokes question={joke.question} punchLine={joke.punchLine}/>
+            <Jokes key={joke.id} question={joke.question} punchLine={joke.punchLine}/>
       );
 })
 const App = () => {
